@@ -1,12 +1,3 @@
-// const liEl = document.querySelector("#categories");
-// console.log(`Number of categories : ${liEl.children.length}`);
-
-// Animals //
-// [...liEl.children].forEach((elem) => {
-//   console.dir(elem.children[0].textContent);
-//   console.dir(elem.children[1].children.length);
-// });
-
 const numOfCategoriesAll = document.querySelectorAll(".item");
 console.log("Number of categories:", numOfCategoriesAll.length);
 
@@ -36,9 +27,9 @@ const numOtCategoriesTechnologies =
   listOfCategoriesTechnologies.children.length;
 console.log("Elements:", numOtCategoriesTechnologies);
 
-console.log("");
-console.log("/////////Інший варіант/////////");
-console.log("");
+
+console.log("//Інший варіант//");
+
 
 const itemcategoriesAll = document.querySelectorAll(".item");
 console.log("Number of categories:", itemcategoriesAll.length);
